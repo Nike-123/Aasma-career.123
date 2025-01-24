@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aasma Careers Boot Camp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e1e8f0, #d9e4f5);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #fb8b24; /* Primary color */
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .logo {
+            width: 100px; /* Adjust logo size as needed */
+            margin-bottom: 20px; /* Space below logo */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            width: 90%;
+        }
+        .section {
+            background: #5390d9; /* Secondary color */
+            color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        h1 {
+            font-family: 'Montserrat', sans-serif; /* Professional font for main heading */
+            font-size: 2.5em;
+            color: black; /* Changed to black */
+            font-weight: 700;
+            margin: 0;
+        }
+        h2 {
+            font-family: 'Montserrat', sans-serif; /* Professional font for subheading */
+            font-size: 2em;
+            color: black; /* Changed to black */
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .price {
+            font-size: 26px;
+            color: #fb8b24;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .highlights {
+            list-style-type: none;
+            padding: 0;
+        }
+        .highlights li {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #fff;
+            position: relative;
+            padding-left: 20px;
+        }
+        .highlights li:before {
+            content: "✔";
+            color: #000000;
+            position: absolute;
+            left: 0;
+        }
+        .cta {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .cta a {
+            text-decoration: none;
+        }
+        .cta button {
+            background-color: #fb8b24; /* Primary color */
+            color: #fff;
+            border: none;
+            padding: 15px 40px;
+            font-size: 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .cta button:hover {
+            background-color: #e67e22;
+            transform: translateY(-2px);
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header {
+                padding: 20px;
+            }
+            .section {
+                padding: 15px;
+            }
+            .price {
+                font-size: 22px;
+            }
+            .cta button {
+                padding: 12px 30px;
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .price {
+                font-size: 20px;
+            }
+            .highlights li {
+                font-size: 16px;
+            }
+            .cta button {
+                width: 100%;
+                padding: 10px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://aasmacareers.in/store/1/favicon.png" alt="Aasma Careers Logo" class="logo">
+        <h1>Aasma Careers Boot Camp</h1>
+        <p>21+9 Job Mantra - Placement Oriented Program</p>
+    </header>
+    <main class="container">
+        <section class="section">
+            <h2>Program Details</h2>
+            <p><strong>Duration:</strong> 21 days of learning + 9 days of focused job search activities</p>
+            <p><strong>Course Name:</strong> 21+9 Job Mantra</p>
+            <p><strong>Offered By:</strong> Aasma Careers</p>
+            <p><strong>Price:</strong> <span style="text-decoration: line-through; color: rgb(226, 29, 29);">₹3999</span> <span style="font-size: 24px; color: #eeeeee;">₹999/-</span> + ₹179/- = <strong>₹1178/-</strong> <span style="color: #e0ece3;">(GST Included)</span></p>
+            <p style="color: #f7ebe1; font-weight: bold;">Early Bird Offer for first 500 students!</p>
+        </section>
+        <section class="section">
+            <h2>Key Features</h2>
+            <ul class="highlights">
+                <li>Expert Live Sessions from industry professionals</li>
+                <li>Assessment Tests to evaluate learning progress</li>
+                <li>Placement Assistance for finding job opportunities</li>
+                <li>Mock Interviews to prepare for real job interviews</li>
+                <li>Guaranteed Interviews with top companies</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Core Message</h2>
+            <p>The Aasma Careers Boot Camp is designed to help individuals secure employment within 21 days through a structured program emphasizing expert instruction and guaranteed placement opportunities.</p>
+        </section>
+        <div class="cta">
+            <a href="https://aasmacareers.in/course/Course-Job" target="_blank" aria-label="Enroll Now">
+                <button>Enroll Now</button>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
